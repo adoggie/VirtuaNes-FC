@@ -1,0 +1,145 @@
+VirtuaNES support mappers (Based on Unofficial Nester,etc...)
+
+No	Name					Comment
+--------+-------------------------------+---------------------------------
+000	32K/16K ROM/8K VROM		
+001	Nintendo MMC1			
+002	UNROM				
+003	CNROM				
+004	Nintendo MMC3			
+005	Nintendo MMC5			
+006	FFE F4xxx			
+007	AOROM/AMROM			
+008	FFE F3xxx			
+009	Nintendo MMC2			
+010	Nintendo MMC4			
+011	Color Dreams			
+013	CPROM				
+015	100-IN-1			
+016	Bandai Standard			
+017	FFE F8xxx			
+018	Jaleco SS8806			
+019	Namcot 106			
+020	Nintendo Disk System(FDS)	
+021	Konami VRC4			
+022	Konami VRC2 type A		
+023	Konami VRC2 type B		
+024	Konami VRC6			
+025	Konami VRC4			
+026	Konami VRC6V			
+032	Irem G101			
+033	Taito TC0190/TC0350		
+034	Nina-1				
+040	SMB2j				
+041	Caltron 6-in-1			
+042	Mario Baby			
+043	SMB2j				
+044	Super HiK 7-in-1		
+045	1000000-in-1			
+046	Rumble Station			
+047	NES-QJ				
+048	Taito TC190V			
+050	SMB2j				
+051	11-in-1 Ball Games		
+057	54-in-1				
+058	68-in-1				
+060	65-in-1				
+062					
+064	Tengen Rambo-1			
+065	Irem H3001			
+066	Bandai 74161/32			
+067	Sunsoft Mapper 3		
+068	Sunsoft Mapper 4		
+069	Sunsoft Mapper 5		
+070	Bandai 74161/32			
+071	Camerica			
+072	Jaleco/Type1 lower bank switch	
+073	Konami VRC3			
+074					
+075	Konami VRC1/Jaleco D65005	
+076	Namco 109			
+077	Irem Early Mapper #0		
+078	Jaleco 74161/32			
+079	Nina-3				
+080	Taito X-005			
+082	Taito C075			
+083	Cony				
+085	Konami VRC7			
+086	Jaleco Early Mapper #2		
+087	Konami 74161/32			
+088	Namco 118			
+089	Sunsoft Early Mapper		
+090	PC-JY-??			
+091	PC-HK-SF3			
+092	Jaleco Early Mapper #1		
+093	Sunsoft 74161/32		
+094	Capcom 74161/32			
+095	Namco 106M			
+096	Bandai 74161/32			
+097	Irem 74161/32			
+100	Nesticle MMC3			
+101	Jaleco 74161/32			
+105	Nintendo World Championship	
+108					
+107	Magic Dragon			
+109					
+110					
+112	PC-Asder			
+113	PC-Sachen/Hacker		
+114					
+115					
+116					
+117	PC-Future			
+118	IQS MMC3			
+119	TQ-ROM				
+122	Sunsoft 74161/32 (same 184)	
+133					
+134					
+135					
+140					
+142					
+160	PC-Aladdin			
+180	Nichibutsu			
+181	Hacker International Type2	
+182	PC-SuperDonkeyKong		
+183					
+184	Sunsoft 74161/32 (same 122)	
+185	CHR-ROM Disable Protect		
+187	Street Fighter Zero 2 97	
+188	Bandai Karaoke Studio			取り敢えず動くだけ
+189	Street Fighter 2 Yoko version	
+190					
+191					
+193					
+194					
+198					
+222					
+225	72-in-1				
+226	76-in-1				
+227	1200-in-1			
+228	Action 52			
+229	31-in-1				
+230	22-in-1				
+231	20-in-1				
+232	Quattro Games			
+233	42-in-1				
+234	Maxi 15				
+235	150-in-1			
+236	800-in-1			
+240	Gen Ke Le Zhuan			
+241					
+242	Wai Xing Zhan Shi		
+243	PC-Sachen/Hacker		
+244					
+245	Yong Zhe Dou E Long		
+246	Phone Serm Berm			
+248	Bao Qing Tian			
+249					
+251					
+252					
+254					
+255	110-in-1			
+
+注）未チェックのマッパーがいくつかあります。どれだったか覚えてないので
+    動作しない等ありましたら掲示板で。
+

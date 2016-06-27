@@ -1,0 +1,11 @@
+;Game Genie Code for 'Super Mario Bros (E)'
+;
+;  NOTE: *** write codes at the TOP OF LINE ***
+
+;Infinite lives for both players
+SXIOPO
+
+;Always stay big
+OZTLLX
+AATLGZ
+SZLIVO

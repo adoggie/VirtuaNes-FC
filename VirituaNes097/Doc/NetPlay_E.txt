@@ -1,0 +1,222 @@
+
+VirtuaNES version 0.75 (C)2001-2003 Norix
+
+///////////////////////////////////////////////////////
+/// The sentence was got with translation software. ///
+///////////////////////////////////////////////////////
+
+//////////////////////
+// Be no guarantees //
+//////////////////////
+
+================
+= Network play =
+================
+
+Performance of a network play improved from 0.75.
+
+Although it was based also on network connection environment, some input lugs 
+plotted and there was no upper method, the smooth play usually near a play was 
+able to be performed in the Internet connectivity of ADSL.
+
+Because it is for a network play to be basically difficult, be good, and there 
+isn't a guarantee in all environment well at all.
+
+Perhaps don't do support of Kaillera.
+
+====================
+= Will want to say =
+====================
+
+Please do not use it if doesn't understand that be written by this document.
+Because thinks that it can be settled if examines it a little, at first please 
+try to examine it.
+
+Don't do a guarantee of no damage by what used. Please use it in personal 
+responsibility.
+
+===========================================
+= Would like you to confirm it before use =
+===========================================
+
+Please confirm only this before use minimally.
+
+1.Can use a network and TCP/IP.
+
+  Because doesn't begin if there isn't this, please install it when doesn't pour 
+  it. Should enter it if can tie it to a network commonly.
+
+2.The server side and an IP address and confirmation of a port number to use.
+
+  The server side always needs global IP and an uncrowded port. Be not usable by 
+  a network. Think that the client side works if it can lead to a server.
+
+  Please set it when uses a router and a firewall to show both TCP/UDP of a port 
+  to use. TCP uses key information, UDP for a chat message.
+
+  In addition, will be good while arranging it by a chat of IRC in connection 
+  when does it.
+
+3.When the image that wants to use includes save data, make it the same.
+
+  If is same, and there isn't this, be so that doesn't go well.
+  Note) When PRG CRC is different, increase with a communication error.
+
+4.Does satisfactory speed go?
+
+  If there isn't it with a machine appearing more than 100FPS without an 
+  automatic frame skip, net play is severe.
+
+  In addition, may not play comfortably that PING value isn't low.
+
+5.The game that can play with two people.:D
+
+  Be good, but let's enjoy it with 2P-Play anyway if shows a play.
+
+Note) Please turn an option of "Sync drawing" into off.
+
+Note) Be automatic, and an option of background movement becomes ON.
+      (don't do reflection of setting)
+
+Note)Be automatic, and an automatic frame skip becomes ON. Don't change optional 
+     itself. Because the same period of a game doesn't act well that will not 
+     pour this, become ON by all means.
+
+=========
+= Usage =
+=========
+
+The server side operates 1P/3P by 1P/2P controller setting.
+The client side operates 2P/4P by 1P/2P controller setting.
+
+Please make setting of emulation (a game option or a 4 player adapter) the same 
+beforehand.
+
+1.Use an image to be same as the server side in a client side.
+
+  Be need minimum subjects. Can play at the net, but let's leave even a 
+  different image because it is completely meaningless.:D
+
+2.Input a nickname.
+
+  A nickname uses it by a chat.
+
+3.Do connection being waiting for with the server side.
+
+  Select a port number to use with the server side in the input or a combo box, 
+  and select Latency in total in network environment to use.
+
+  Push a connection button, and wait for connection from the client side.
+
+  Note) Because connection environment is different in each, there isn't the 
+        most suitable Latency setting. Please try to test it in accordance with 
+        the line situation in various ways.
+
+4.Be connected with the client side.
+
+  Click radio button of a client, and select it in a combo box whether you 
+  input a server side address.
+
+  An input form is two kinds of the following.
+
+  IP:PORT	ex) 127.0.0.1:10000 or 192.168.0.1:12345
+  HOST:PORT	ex) localhost:23456 or virtuanes.net:34567
+
+
+4.Reset it automatically that be connected, and a game begins.
+
+  Do a version checks after connection. Can do netplay when judged that a 
+  version and a game are same.
+
+  Can do netplay when judged that a version and a game are same.
+
+Note)Can take a little time till a frame rate is stable.
+
+Note)Emulation should become limit on the way that either touches it by a menu, 
+     and will not touch it.
+
+========
+= Chat =
+========
+
+A chat is a thing of facility.
+
+Transmit a message by a message to play against when makes a chat window active 
+and inputs it into editbox of the lower part and pushes a return key.
+
+Can turn a chat window into non-indication when pushes an ESC key.
+
+--------------------------------------------------------------------------------
+Attention
+
+Even if the controller input of emulation makes a chat window active, don't 
+restrain it.
+
+Because a return key is set by a START button, controller setting of a default 
+please assign it to different buttons on the occasion of netplay.
+--------------------------------------------------------------------------------
+
+When some message came from the other party of netplay, a chat window is 
+displayed automatically.
+
+When a message comes by a non-active state and non-indication state, a sound 
+sounds.
+
+Note) Because it is UDP, please pay attention because a message can't reach a 
+      partner.
+
+==============
+= Disconnect =
+==============
+
+Requirements done disconnect of are as follows.
+
+-When did disconnect.
+
+-When an error in an error and emulation of a network occurred, be done 
+ disconnect.
+
+-When there isn't a reply, be done disconnect for about 10 seconds.
+
+Note)A counterpart finishes emulation automatically, too.
+
+Note)Because becomes a temporary standstill state when sends menu and DIALOG, 
+     there can be the thing that disconnect when there isn't a reply for about 
+     10 seconds is done.
+
+===========================================
+= A function to be usable during net play =
+===========================================
+
+During net play, can use the following functions in both sides, but please pay 
+attention because doesn't go well when remains and does it at high speed.
+
+-Hard/Soft reset.
+
+-Disksystem control.
+
+-Netplay exclusive use state save/load.
+ Because a server / client is together local and makes a state, please pay 
+ attention if there isn't both the same thing because becomes strange.
+
+Be assigned to the following functions, and can't use it, and do it.
+
+-Emulation pause and One step.
+
+-Throttle.
+
+-Frame skip.
+
+-Movie operation.
+
+Note)Other functions change for the present, but please do not use it because 
+     it is real guarantee outside.
+
+--------------------------------------------------------------------------------
+
+Norix
+
+------------------------------------------------------
+    Put out the email address for virus measures.
+------------------------------------------------------
+

@@ -1,0 +1,83 @@
+
+VirtuaNES version 0.75 (C)2001-2003 Norix
+
+===================================
+= An external sound file gains it =
+===================================
+
+Please prepare it by each person.
+There is a method changes it entirely, and to enjoy. :D
+
+===============
+= WAVE Format =
+===============
+
+-PCM only.(not ADPCM or mp3)
+-A stereo is monaural playback, too.
+
+Note) Please do not do a rest in a long sound file.
+
+=========
+= Usage =
+=========
+
+Edit a VirtuaNES.ini file like the following examples directly, and please add 
+it so that there is more than one setting item.
+
+In addition, read a WAVE file in exe activation.
+
+-Example-
+
+[ExtraSound]
+; Moero!! Pro Yakyuu
+Moepro00=C:\VirtuaNES\MoeProSound\moepro00.wav
+Moepro01=C:\VirtuaNES\MoeProSound\moepro01.wav
+Moepro02=C:\VirtuaNES\MoeProSound\moepro02.wav
+Moepro03=C:\VirtuaNES\MoeProSound\moepro03.wav
+Moepro04=C:\VirtuaNES\MoeProSound\moepro04.wav
+Moepro05=C:\VirtuaNES\MoeProSound\moepro05.wav
+Moepro06=C:\VirtuaNES\MoeProSound\moepro06.wav
+Moepro07=C:\VirtuaNES\MoeProSound\moepro07.wav
+Moepro08=C:\VirtuaNES\MoeProSound\moepro08.wav
+Moepro09=C:\VirtuaNES\MoeProSound\moepro09.wav
+Moepro10=C:\VirtuaNES\MoeProSound\moepro10.wav
+Moepro11=C:\VirtuaNES\MoeProSound\moepro11.wav
+Moepro12=C:\VirtuaNES\MoeProSound\moepro12.wav
+Moepro13=C:\VirtuaNES\MoeProSound\moepro13.wav
+Moepro14=C:\VirtuaNES\MoeProSound\moepro14.wav
+Moepro15=C:\VirtuaNES\MoeProSound\moepro15.wav
+; DISKSYSTEM
+DiskSound00=.\DiskSound\Cam.wav
+DiskSound01=.\DiskSound\Motor.wav
+DiskSound02=.\DiskSound\SeekEnd.wav
+
+
+Equivalence is as follows.
+
+Moero!! Pro Yakyuu
+--------------------------------------------------------------------------------
+Moepro00	strike
+Moepro01	ball
+Moepro02	time
+Moepro03	out
+Moepro04	safe
+Moepro05	foul ball
+Moepro06	fair ball
+Moepro07	batter out
+Moepro08	playball
+Moepro09	walk
+Moepro10	home run
+Moepro11	pitcher change
+Moepro12	ouch
+Moepro13	Be said a fool to a supervisor.
+Moepro14	blow sound
+Moepro15	shout of joy
+--------------------------------------------------------------------------------
+
+DISKSYSTEM
+--------------------------------------------------------------------------------
+DiskSound00	cam sound.
+DiskSound01	motor sound.
+DiskSound02	sound in the end to seek.
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,81 @@
+
+VirtuaNES version 0.50 (C)2001-2002 Norix
+
+///////////////
+// Attention //
+///////////////
+
+Because cheat can destroy save data, please go after takes backup, doing it.
+Ask by self responsibility.
+
+================
+= Introduction =
+================
+
+Because thinks that remains with other emulators, and basic usage does not 
+change, please fit it than learns it.
+
+Seeing is believing. At first please try to use it. It is terrible to write a 
+manual:)
+
+==================
+= Cheat function =
+==================
+
+Cheat support   Use it when searches a code.
+
+Cheat code      Load a code, and edit it.
+
+Cheat enable    Enable all codes.
+Cheat enable    Disable all codes.
+
+GameGenie       Open a code file of GameGenie.
+                Note) Hold an image again when wants to invalidate it, and 
+                please get over.
+
+=================
+= Cheat support =
+=================
+
+Search result   Display search results. Send an address of the position to an 
+                address of data renewal by double click. Open a menu when 
+                clicks the right.
+
+Radix           Select 10(DEC) or 16(HEX).
+
+Length          Select the chief of data of a search and comparison.
+
+-Search-
+
+Start           Start a search anew.
+Update          Update Now data.
+Undo            There is Undo by data just before that once.
+
+Search          Search data set by data.
+
+-Data write-
+
+Write           Write in data set by data at an address. To some extent when 
+                narrows it down, and it was possible, can test it.
+
+
+==============
+= Cheat code =
+==============
+
+An icon appearing in the left side of a cheat code list shows a state of a 
+current cheat code.
+
+In the left, the right lower part expresses an effective / invalidity state, an 
+effective / null and void state of a cheat key of an each cheat code, and green 
+is effective, and red becomes null and void.
+
+Be to say that wants to change it with a cheat key, and the cheat code which 
+there is not will turn the right lower part into red.
+
+A state changes that selects it and will click space bar or an icon.
+
+In addition, can send editing DIALOG when does double click of a cheat code list.
+
+A state of a cheat code is saved in a save, too.
+

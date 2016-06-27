@@ -1,0 +1,1578 @@
+History
+
+///////////////////////////////////////////////////////
+/// The sentence was got with translation software. ///
+///////////////////////////////////////////////////////
+
+
+08/25/2003      v0.82
+
+Addition:
+---------
+
+-Add a correspondence pattern to simple virus checkers.
+ (Sobig.F has been sent to me by terrible force. Have been sent around 2000-3000 
+  in a day....)
+
+Change:
+-------
+
+-Changed cheat code folder of a default in ".\cheatcode\" from ".\code\".
+
+Revision:
+---------
+
+-Correct Mapper20(FDS).
+
+-Correct focus and there can be the thing that place it, and shortcut key has 
+ worked in one of movement of short cut malfunction.
+
+-Corrected the malfunction that had worked without relation in setting of 
+ background movement when minimized it with a click of task bar.
+
+================================================================================
+
+08/07/2003      v0.81
+
+Addition:
+---------
+
+Change:
+-------
+
+-Invalidated operation with a keyboard when turned a chat window in net play 
+ into an active window.
+ Note) Can operate it in joystick.
+
+Revision:
+---------
+
+-Corrected that a general conservation error went when it started when 
+ DirectX7.0 or higher was not installed.
+
+-Corrected setting to SRAM check box of Cheat support.
+
+-Correct Mapper112.
+
+================================================================================
+
+06/23/2003      v0.80
+
+Addition:
+---------
+
+Change:
+-------
+
+-Set a start music number of NSF in an initial value.
+
+Revision:
+---------
+
+-SRAM save corrects the malfunction that there isn't by some games of Mapper1.
+
+-Correct Mapper45.
+
+================================================================================
+
+06/01/2003      v0.79
+
+Addition:
+---------
+
+-Add indication of a sort state to a save and a header part of a sort state in 
+ Launcher.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct behavior of an APU register.
+
+-Correct Mapper90.
+
+================================================================================
+
+05/24/2003      v0.78
+
+Addition:
+---------
+
+-Add some equivalence patterns to simple virus checkers.
+
+Change:
+-------
+
+-Saved a state of a source emulation part by a state save.
+ Think that the phenomenon that a sound becomes strange almost disappears in 
+ state load.
+ Note) Don't store VRC7.
+
+Revision:
+---------
+
+-Shortcut key processing a few revision.
+
+================================================================================
+
+05/06/2003      v0.77
+
+Addition:
+---------
+
+-Add an option doing Sleep when uses an option of "Sync drawing".
+ Please add "SyncNoSleep=1" to a [Graphics] section when uses it.
+ Default off. A frame rate depends on monitor frequency when turns this option 
+ into ON.
+ Note) Please do not use it when can't select monitor frequency in full-screen 
+       with Windows9x(Include Me) series.
+
+-Displayed a key of VRC7 with a NSF player mode.
+ Note) Display a musical scale of a channel in key-on.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that FPS and shortcut key processing become too fast when it makes the 
+ number of frame skip increasing between pauses of emulation.
+
+-Correct Mapper83.
+
+================================================================================
+
+04/21/2003      v0.76a
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that then can have returned by a full-screen change with shortcut key 
+ in the cause.
+
+================================================================================
+
+04/20/2003      v0.76
+
+Addition:
+---------
+
+-Add following Mapper(there is Mapper which doesn't work.)
+
+044,045,046,047,050,051,057,058,060,062,074,105,108,109,110,112,
+114,115,116,117,133,134,135,140,142,160,182,183,190,191,193,194,
+198,222,225,226,227,228,229,230,231,232,233,234,235,236,240,241,
+242,244,245,246,248,249,251,252,254,255
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that Shougi Meikan '92 didn't move.
+
+================================================================================
+
+03/21?/2003      v0.75e	(Don't release it formally.)
+
+Sorry...
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-A debugging code is left, and correct that was very heavy.
+
+================================================================================
+
+03/21/2003      v0.75d
+
+Sorry...
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-A debugging code is left, and correct that was very heavy.
+
+================================================================================
+
+03/21/2003      v0.75c
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct a very stupid bug of NMI. :(
+
+-Correct behavior of special NMI.
+
+================================================================================
+
+
+03/21/2003      v0.75b
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct the bug that FDS can't save.
+
+================================================================================
+
+03/20/2003      v0.75a
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Only DISKSYSTEM was the same as v0.74, and steeped NMI.
+
+================================================================================
+
+03/19/2003      v0.75
+
+-Because revises plug-in, please pay attention.
+
+Addition:
+---------
+-Add a chat window in netplay.
+ Please refer to NetPlay_E.txt in detail.
+
+-Add a setting item only of INI to GUI.
+ Ex)Disk access lamps.
+
+-Add GUI that each axis can set an analog axis of joystick independently.
+
+-Add Barcode-Battler II connection of a Barcode World.(Thanks Xox)
+ A dialogue uses a thing the same as DATACH.
+
+-Add expansion sound file playback of Moero!! Pro yakyuu(J).
+ Please refer to extra ExtSound_E.txt.
+
+-Add mechanical sound file playback of a DISKSYSTEM.
+  Please refer to extra ExtSound_E.txt.
+
+-Add Mapper91/113/181/243.
+
+Change:
+-------
+
+-Improve a netplay function more.
+ Please refer to NetPlay_E.txt.
+
+-Change it to be able to set various folder setting with relative path 
+ (.\abc\ or ..\def\).
+ Note) Set default setting in relative path.
+ Note) Appointment with relative path of Launcher isn't finished.
+
+-Change an initial value of SRAM in $FF.(Low G Men)
+
+Revision:
+---------
+
+-NMI a few revision.
+
+-VolEffect a few revision of a triangle wave and noise.
+
+-Correct a bug of a CRAM change of Mapper6.(Thanks yokanosuke)
+
+================================================================================
+
+02/08/2003      v0.74
+
+Addition:
+---------
+
+-Add simple virus checkers
+ Be famous, and there is much infection, and do a simple check of a very 
+ annoying virus.  Be self-defense plans to a virus email arriving a lot still.
+ A source code license of virus checkers is written with a source code.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that a save is strange with FinalFantasy I&II(J).
+
+-Correct that music choice of NSF can become strange.
+
+================================================================================
+
+01/04/2003      v0.73b
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct behavior of special NMI.
+
+-Correct that is strange when shows a choice screen at a Gemini man stage 
+ of Rockman3(Megaman3).(patched)
+
+================================================================================
+
+01/01/2003      v0.73a
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that Spelunker didn't move.
+
+================================================================================
+
+01/01/2003      v0.73
+
+Addition:
+---------
+
+Change:
+-------
+
+-Change an initial value of RAM in FDS.
+
+-Change a DC offset filter of the sound output.
+
+Revision:
+---------
+
+-Correct behavior of NMI.
+
+-Correct IRQ of MMC3.
+
+-Correct a game to use an expansion source of n106.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Hiryuu no Ken 3(J)			4
+Battle Fleet(J)				19
+Aisenshi Nicol(J)			FDS
+
+================================================================================
+
+11/25/2002      v0.72
+
+Addition:
+---------
+
+-Add an option of disk access lamp indication.
+
+ Note) Display a disk access lamp on the right top when adds "DiskAccessLamp=1" 
+       to a [GRAPHICS] section of an INI file.
+
+Change:
+-------
+
+-Turned save data generated with TurboFile into single "TurboFile.vtf" from 
+ "ROM name.vtf".
+
+Revision:
+---------
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+LodeRunner(J)				0	tape device
+SpaceShadow(J)				70	no flash
+
+================================================================================
+
+11/17/2002      v0.71b
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct Sweep of Rectangle wave.
+-Correct a reset parameter of Sweep of Rectangle wave.
+
+================================================================================
+
+11/07/2002      v0.71a
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-The revision that included a bug for Joypad measures.
+
+================================================================================
+
+11/07/2002      v0.71
+
+Addition:
+---------
+
+-The addition that measures to the thing which a specific axis entered with 
+ Joypad, and have grown (mainly, PlayStation Pad converter) are optional.
+ Add "JoyAxisDisable= option value " to a [General] section of an INI file.
+
+ A meaning of an optional value is as follows.
+ ----------------------------------
+ 0 All axes are effective(default)
+ 1 All axes are null and void
+ 2 X             axis is effective
+ 3 X/Y           axis is effective
+ 4 X/Y/Z         axis is effective
+ 5 X/Y/Z/RX      axis is effective
+ 6 X/Y/Z/RX/RY   axis is effective
+ ----------------------------------
+ Note)Become the same setting entirely when connected more than one Joypad.
+
+-Add a restraint option of a volume change effect by the output value of DMC 
+ to Triangle Wave.
+
+ Note)Change Plugin, and can set the option mentioned above only with an INI 
+      file because there isn't.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct sweep of a Square Wave channel and behavior of a frequency limit.
+
+================================================================================
+
+10/24/2002      v0.70
+
+-Because revises plug-in, please pay attention.
+
+Addition:
+---------
+
+-Add expansion controller.
+ Family Trainer
+ Exciting Boxing
+ Mahjang
+ Oekakids Tablet
+
+-Add a Turbo File.
+
+-Add DATACH Barcode Battler.
+
+-Add a tape device.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct EEPROM processing of Mapper16.
+
+-Correct Triangle wave.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Dragon Ball Z2(J)			16	EEPROM
+Dragon Ball Z3(J)			16	EEPROM
+Dragon Ball Z Gaiden(J)			16	EEPROM
+SD Gundam Gaiden Knight Gundam Monogatari 2 Hikari no Kishi(J)	16	EEPROM
+SD Gundam Gaiden Knight Gundam Monogatari 3 Densetsu no Kishi Dan(J) 16 EEPROM
+Rokudenashi Blues(J)			16	EEPROM
+
+================================================================================
+
+09/09/2002      v0.69c
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-NSF player routine a few revision.
+
+-Movement corrects some strange games.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+AD&D Dragons of Flame(J)		1	Database revision
+Barcode World(J)			69	Database revision
+Honoo no Toukyuuji Dodge Danpei(J)	69	Database revision
+Breeder					FDS	no sound
+Casino de pink				FDS	sound revision
+
+================================================================================
+
+
+22/08/2002      v0.69b
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that a debugging code was left.
+
+================================================================================
+
+21/08/2002      v0.69a
+
+Addition:
+---------
+
+Change:
+-------
+
+-Returned the acquisition by DirectInput of character string of a keyboard to 
+ processing before v0.69. (so that there is the environment that can't start)
+
+Revision:
+---------
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Baseball Star - Mezase Sankanou!!(J)	1
+
+================================================================================
+
+18/08/2002      v0.69
+
+Addition:
+---------
+
+Change:
+-------
+
+-Change to acquire character string of a keyboard from a DirectInput device.
+ (can't set even if pushes toggle key)
+
+-Change acquires joystick ID (can set with Control Panel), and to be able to 
+ set.(please set again when joins by more than one joystick)
+
+-Change to be able to correspond to a Z/RX/RY/RZ axis of joy-stick.
+
+Revision:
+---------
+
+-Correct IRQ of Mapper67.
+
+-Because there seems to be the environment that has fallen when uses MemoryView 
+ for a long time, be revisions.
+
+-A figure of high rank corrects the bug that has changed when turned a figure 
+ of a low rank into A ... F in Edit with MemoryView.
+
+-Correct that shortcut key has worked when uses cheat support and adds a code.
+
+================================================================================
+
+07/20/2002      v0.68
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that a title of PalleteView became PatternView.
+
+-Correct that there wasn't Drag&Drop of a movie file and a state file.
+
+-Correct that there wasn't header editing with built-in launcher.
+
+================================================================================
+
+07/12/2002      v0.67
+
+-FDSplugin.dll became needless from a version of this time.
+
+Addition:
+---------
+
+Change:
+-------
+
+-Remade a built-in source, a code of a FDS source.
+
+Revision:
+---------
+
+-A MMC5 source sounds with a NSF player, and correct that there wasn't.
+
+-Correct a NSF player playback routine.
+
+================================================================================
+
+
+06/25/2002      v0.66
+
+Addition:
+---------
+
+-Add an icon to Launcher.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct a bug to finish illegality that a NES header lists an abnormal thing 
+ in Launcher.
+
+-Correct a ZIP operation code.
+
+-Correct Triangle wave.
+
+-Correct that character string of language plugin for English is strange.
+ (Therefore language plugin in an archive changes.)
+
+================================================================================
+
+06/22/2002      v0.65
+
+-Because revises plug-in, please pay attention.
+
+-Change FDSplugin.dll.
+
+Addition:
+---------
+
+-Support an archive file with Launcher.
+
+-Add CHR CRC to ROM information DIALOG.
+
+-Add a setting item only of INI to DIALOG with v0.61.
+
+-Add a filter type of sound setting.
+
+-Add START, SELECT to a controller after 2Player.
+
+Change:
+-------
+
+-Change uses zlib, and to be able to defrost an archive file even if there 
+ isn't UNZIP32.DLL.
+
+-When a recorded version of a movie is different, don't seem to send DIALOG, 
+ and change when used the option which doesn't do a CRC check.
+
+Revision:
+---------
+
+-Small noise corrects that there is a game to go with Rectangle wave sometimes.
+
+-Correct Triangle wave.
+
+-Correct that a state slot menu isn't checked.
+
+================================================================================
+
+06/15/2002      v0.61
+
+Addition:
+---------
+
+-Add an option depending on VSync with a Window mode.
+ (Because doesn't change UI, can set only with an INI file. Please set WindowVSync 
+  of a [Graphics] section of INI in 1. In addition, please use the one that is 
+  enacted in 60Hz because depends on a refreshment rate of a desktop for 60Hz 
+  after changing. Return besides it, and vibration can occur.)
+
+-Add an indication option of a pad state in movie playback.
+ (Can set only with an INI file. Please set PadDisplay of a [Movie] section of INI 
+  in 1. In addition, be assumed that takes a snapshot a snapshot a picture of a pad 
+  together.)
+
+-Add date and time indication to a state slot menu.
+
+Change:
+-------
+
+-State data form a few change.(old data are readable)
+
+
+Revision:
+---------
+
+-Correct that a system resource can be short when uses MemoryView.
+
+-Measures tried to do that there was the environment where the key which didn't set 
+ had reacted to when they pushed Web keys with shortcut and a controller.
+
+-A rectangle wave and triangle wave a few revision.
+
+-A color corrects that disguises when uses 2 times rendering option in 24bit color 
+ mode.
+
+-Correct that there can be the thing that playback doesn't go well when takes and 
+ uses rectification of a movie.
+
+-AppendRecord corrects that there isn't the workmanship when doesn't prohibit 
+ rerecord of a movie.
+
+================================================================================
+
+06/03/2002      v0.60
+
+-Because revises plug-in, please pay attention.
+
+-Change FDSplugin.dll.
+
+Addition:
+---------
+
+-Addition of game option setting making a fine adjustment with the user side.
+ (when setting is stored and sets in "GameOption.ini" once, start by the setting 
+  after the next time)
+
+-Support PAL.
+ (set with a game option)
+
+-Did an illegal check of a NES header, and asked whether you executed when illegal.
+
+-Addition of a various viewer.
+
+-Add Mapper90 and 187.
+
+-Add CRC and ALLCRC to ROMINFO DIALOG.
+
+Change:
+-------
+
+-Because a format of a movie file changed, get impossible to load the movie of a 
+ former version.
+
+-Sent DIALOG where a CRC check loaded state data and a movie in case of ON.
+ (Please do that it turns an option into OFF to load by self responsibility.
+  Do not guarantee damage of save data at all.)
+
+Revision:
+---------
+
+-A small revision of Rectangle wave and Triangle wave.
+
+-A revision of DPCM interrupt.
+
+-A small revision of a NSF player.
+
+================================================================================
+
+05/16/2002      v0.58
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-A revision of envelope and sweep of Rectangle wave.
+
+-Eliminate a too much patch part of F-1 Race(JU) and MachRider(JU).
+
+================================================================================
+
+05/14/2002      v0.57
+
+Addition:
+---------
+
+-Addition of SpaceShadow Gun. Used by "SpaceShadow(J)".
+ (Be automatic, and distinguish it, but do not go for a menu yet, and the right 
+  mouse button is a bomb at once.)
+
+Change:
+-------
+
+Revision:
+---------
+
+-Because a patch of a F-1 Race(JU) was wrong, correct it.
+
+================================================================================
+
+05/13/2002      v0.56
+
+Addition:
+---------
+
+-Addition of SpaceShadow Gun. Used by "SpaceShadow(J)".
+ (Be automatic, and distinguish it, but do not go for a menu yet, and the right 
+  mouse button is a bomb at once.)
+
+Change:
+-------
+
+Revision:
+---------
+
+-A revision of Envelope and Sweep of Rectangle wave.
+
+-A revision of behavior of Triangle wave.
+ (Want to believe that there is not it any more...)
+
+-Correct EEPROM access of Mapper16.
+ (Because a command can be different, be not readable by all games of Mapper16.)
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Super boy Allan(J)			FDS
+Mach Rider(JU)(and Alt)			0
+
+================================================================================
+
+05/05/2002      v0.55
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct behavior of a frequency low register of a triangle wave.
+
+-Noise corrects that enters it in playback/standstill in a NSF player mode to 
+ some extent.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Fire Bam(J)				FDS
+
+================================================================================
+
+04/25/2002      v0.54
+
+Addition:
+---------
+
+Change:
+-------
+
+-In a state load/save, change it to display a slot number in information 
+ indication.
+
+-Returned an initial value of NES built-in RAM to 0.
+
+Revision:
+---------
+
+-Correct SP0HIT in a frame skip.
+
+-Correct a return value of $4016/$4017 register.
+
+-A rectangle wave ch2 playback flag corrects what did not return to a $4015 
+ register precisely.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Ninja Ryukenden(J)			1
+Akumajou Special Boku Dracula Kun(J)	23
+
+================================================================================
+
+04/23/2002      v0.53
+
+Addition:
+---------
+
+-Add a volume change effect of triangle wave.
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct the problem that Zapper does not work for.
+
+-Re-corrects the problem that triangle wave does not sound well.
+
+-Correct it to be able to load DISKSYSTEM BIOS of a ".NES" form.(unconfirmed)
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Pat Pat Golf(J)                         FDS
+
+================================================================================
+
+04/21/2002      v0.52
+
+Addition:
+---------
+
+Change:
+-------
+
+-Changed an initial value of NES built-in RAM in 55 from FF.
+
+Revision:
+---------
+
+-Triangle wave corrects the problem that does not sound well by some games.
+
+-Correct FDS disk access interrupt.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Hydlide3(J)                             19
+Dirty Pair(J)                           FDS
+
+================================================================================
+
+04/19/2002      v0.51
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Correct that version notation of one to watch with a property was wrong.
+
+-Triangle wave corrects the problem that does not sound well by some games.
+
+-Correct that a game screen of MMC2/MMC4 became strange when corrected PPU.
+
+================================================================================
+
+04/16/2002      v0.50
+
+-Because revises plug-in, please pay attention.
+
+-Change FDSplugin.dll.
+
+Addition:
+---------
+
+-Add a restraint option of double activation.
+
+-Add an option to turn into full-screen with emulation start.
+
+-Add an option of a FDS disk access mode.
+
+-Add Recent Path to a menu.
+
+Change:
+-------
+-Were able to do all the items which could set only with INI with setting DIALOG.
+
+-Speeded up to some extent.
+
+-Coped with special image effects to some extent.
+
+-A sub menu changed into it with Recent ROM of a menu.
+
+-It was assigned controller setting, shortcut key to two kinds.
+
+-Made only noise sound a little big.
+
+-Changed an initial value of NES built-in RAM in FF from 0.
+
+-Assigned memory to an unused bank for the time being, and reduced that DIALOG 
+ of an indistinct error appeared.
+
+-Setting was replaced even if did not change a screen mode when changed a change 
+ and video memory / system memory of HAL/HEL by graphic setting.
+
+-When did it the same period, and an option of drawing started a menu in 
+ full-screen with on, did it the same period, and drew it, and a frame skip 
+ seemed to work, and changed it.
+
+-Were able to send cheat code DIALOG and cheat DIALOG simultaneously.
+
+-Changed a file name of a snapshot.
+
+Revision:
+---------
+
+-When a menu turns it down, client size is a revision because becomes small.
+
+-Correct delay cycle number in NMI interrupt.
+
+-Correct a same period method of sound.
+
+-Because did not output noise sound of high frequency, correct that noise sound 
+ does not sound by some games.
+
+-When time passes, correct that sound can become sometimes strange.
+
+-Correct FDS disk access interrupt.
+
+-Then eject corrects a disk in disk access of FDS because can have finished 
+ emulation.
+
+-In a cheat code road, be revised a bug displayed only to the place by space 
+ and a case including a hyphen by comment.
+
+-Make a fine adjustment with MMC5.
+
+  Title                                         Mapper  Contents
+--------------------------------------------------------------------------------
+VIVA LASVEGAS(J)                                1       ...Patched:)
+Ganso Saiyuuki-Super Monkey Dai Bouken(J)       3
+Genpei Touma Den - Computer Boardgame(J)        4
+METAL MAX(J)                                    4
+Shin 4 Nin Uchi Mahjong - Yakuman Tengoku(J)    5
+Esper Dream 2 - Aratanaru Tatakai(J)            26
+
+================================================================================
+
+
+01/18/2002      v0.40
+
+-Because revises plug-in, please pay attention.
+
+Addition:
+---------
+
+-Addition of a cheat code function.
+
+Change:
+-------
+-Restrained that there can be ALT and the thing that system BEEP sound sounded 
+ when pushed a key simultaneously.
+
+-Shortcut key worked only in an aktiv a main window. So far launcher was active, 
+ and shortcut key came to work.
+
+Revision:
+---------
+
+-A revision of the bug that Rapid-fire setting becomes the same as an A button 
+ with a B button.
+
+-Because a sound could be broken, made each part-time volume small inconsiderably.
+
+-Be revisions with can fall that lets you read the thing that size is funny by 
+ list update of launcher.
+ Note) The thing that file size was small sent in Bad File size indication to a 
+ clause of DB.
+
+-Be revised what turned DSBCAPS_CTRLVOLUME into by a primary buffer.
+
+-Fixed Mapper19.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Ikari(J)                                2
+Namco Classic 2(J)                      19
+Devil Man(J)                            88
+
+================================================================================
+
+11/25/2001      v0.37
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Fixed path bugs.
+
+-Fixed Mapper19.
+
+-Fixed Mapper25.
+
+-Fixed Mapper80.
+
+-Fixed Mapper189.
+
+-Fixed FDS irq.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Namco Classic 2(J)                      19
+Racer Mini Yonku - Japan Cup (J)        25
+Taito Grand Prix - Eikou no Licence(J)  80
+Dragon Quest 2(Alt)(J)                  2
+
+================================================================================
+
+11/20/2001      v0.36
+
+Replaced FDSplugin.dll.
+
+-Correct that music of stage 2 of Bio Miracle Bokutte Upa(J/FDS) becomes a 
+ tone-deaf.
+
+================================================================================
+
+11/12/2001      v0.36
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Fixed NetPlay debug dialogs.
+
+-Fixed Shortcut key.
+
+-Fixed Movie looping replay.
+
+-Fixed DiskState & Movie bugs.
+
+-Fixed some problems.
+
+================================================================================
+
+
+11/07/2001      v0.35
+
+-Because revises plug-in, please pay attention.
+
+Addition:
+---------
+
+-Add Network play.(see NetPlay_E.txt)
+
+-Add an option changed a type of a 4 player adapter.
+
+-Add one step emulation shortcut.
+
+-Add Throttle shortcut that isn't a toggle.
+
+-Add Option controlling a screen left clip function (a function of NES) and 
+ shortcut.
+
+-Add Movie loop function.
+
+-Add Movie info.
+
+Change:
+-------
+
+-Change of Frame-Skip method in disk access.
+
+-Changed it so that key repeat made shortcut key.
+
+Revision:
+---------
+
+-Fixed Shortcut save.
+
+-Fixed sprite 0 hit.
+
+-Fixed FrameIRQ.
+
+-Fixed NSF keyboard picture.
+
+-Fixed some problems.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Reflect world(J)                        FDS     No sounds.
+JJ - Tobidase Daisakusen Part 2(J)      2       Stop sometimes.
+
+================================================================================
+
+
+10/18/2001      v0.33
+
+Addition:
+---------
+
+Change:
+-------
+
+-Play with it in various ways, and speed up to some extent.
+ (the condition that became a little gradually heavy).
+
+-Change of a processing method of FrameIRQ.
+
+-Change of a processing method of Auto-FrameSkip.
+
+-Change of screen off color.
+
+Revision:
+---------
+
+-Fixed APU sounds.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Famicom Top management(J)               1       Title doesn't appear
+Wagan Land 3(J)                         19      vertical direction scroll stage 
+                                                is strange
+
+================================================================================
+
+10/02/2001      v0.32
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+
+-Fixed Auto-FrameSkip bug.
+
+-Fixed State save & movie stupid bug.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Link no Bouken(J)                       FDS     Title screen retainer shakes
+
+================================================================================
+
+09/30/2001      v0.31
+
+Addition:
+---------
+
+-The optional addition that doesn't do CRC checks such as a state, a disk image, 
+ a movie. Please turn a clause of "CrcCheck" less than [Emulation] of an INI 
+ file into 0. Can set it only with an INI file.
+ Note) Because it is danger, please set only one understanding a meaning.
+
+Change:
+-------
+
+-Because disk image save data form included malfunction, change data form.
+ Note) Data form of 0.30 is readable, too, but it isn't it normally that 
+       doesn't do a save with the game main body once. Be settled whether you 
+       save it once if puts out a DSV file. As for the movie, there isn't an 
+       excuse, but take it, and please get over. (a share to always use the 
+       same disk image doesn't include a problem)
+
+Revision:
+---------
+
+-Fixed sprite 0 hit processing.
+
+-Fixed clear timing of sprite 0 hit flag and NMI flag.
+ Note) Movie can slip off...
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+Fire Bird (J) -Hinotori-                2       Graphics Break Down...
+
+================================================================================
+
+09/27/2001      v0.30
+
+-Because revises plug-in, please pay attention.
+
+Addition:
+---------
+
+-Addition of speed adjustment by the number of frame skip.
+ Note) Do it with shortcut key during emulation.
+
+-A movie, addition of folder appointment of WAVE recording.
+
+-Addition of a rerecord function of a movie.
+ Note) Can't do postscript with rerecord in a movie file of a former version.
+
+-Addition of a WAVE file output function.
+
+-Add a button to a formal page to version information DIALOG.
+
+Change:
+-------
+
+-Change it to store setting in an INI file.
+
+-A change of a key arrangement of a default.
+
+-Change it so that be assigned joy-stick to shortcut.
+ Note) When the heavy case and number of frame skip are big, there can be the 
+       thing that is dull of reaction of a key.
+
+-Change it to be able to regulate volume of expansion sound according to a kind.
+ Note) A sound mute abolishes setting with DIALOG, and change it to do a mute 
+       in every channel (expansion sound is every channel) during emulation by 
+       shortcut temporarily.
+
+-Change sound streaming processing.
+
+-A change of a processing method of FDS mapper.
+ Note) Can't use former state save data.
+
+-FDS disk image save data and a change of state data in FDS.
+ Note) Because changed it, and a double circle didn't take a disk image in 
+       difference minute data form, may get possible to distribute it again.
+       A movie is similar, too.
+
+Revision:
+---------
+
+-Fixed deadzone of joystick.
+
+-Fixed NMI timing.
+
+-Fixed envelope of rectangle.
+
+-Fixed octave of triangle for NSF keyboard.
+
+-Fixed N106 source sound.
+
+-Fixed 3P&4P player.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+  Final Fantasy 3(J)                    4
+  Famicom tantei club(J)                FDS
+  Silver surfer(U)                      4       Movie not played.
+  etc..
+
+================================================================================
+
+08/27/2001      v0.24
+
+Addition:
+---------
+
+-Support Drag&Drop of a state / movie file.
+ Note) Don't do a guarantee when a title is different.
+
+
+Change:
+-------
+
+-Were able to select a movie name to file filing it at the time of "Play",
+ "Record","Append Record".
+ Note) In case of "Append Record", don't do a guarantee when a title is 
+       different.
+
+-Change a VRC7 source part to an emu2413 core from NEZplug/fmopl.
+
+Revision:
+---------
+
+-Fixed DiskChange bugs.
+ Note) A movie of the disk title which recorded with a version before this 
+       isn't replayed normally.
+
+-Fixed FME-7 source.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+  The Flintstones(J)                    48      Stop in last neighborhood
+
+================================================================================
+
+08/24/2001      v0.23
+
+Addition:
+---------
+
+-Add para-keyboards to a NSF player.
+
+Change:
+-------
+
+-Plug-in DLL changed into it with a FDS source. If there isn't plug-in DLL, a 
+ sound doesn't sound.
+
+Revision:
+---------
+
+-Fixed NSF player.
+
+-Fixed PPU sprite DMA.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+  Softball Tengoku(J)                   1       Don't go along after baseball 
+                                                stadium choice
+
+================================================================================
+07/24/2001      v0.22
+
+-Because revises plug-in, please pay attention.
+
+Addition:
+---------
+-Optional addition of movement with a background.
+ Can work even if doesn't become an active window during emulation.
+ Even if an icon changes into it, even full-screen works without relation, but 
+ please pay attention because the sounds sounded and grow.
+
+-Addition of a movie record / play function.
+ Record information of a hard & software reset / disk change / expansion 
+ controller (remove a family basic keyboard).
+
+Change:
+-------
+
+Revision:
+---------
+
+-Revision of mapper20.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+  Silviana(J)                           20      Title doesn't appear
+
+================================================================================
+07/18/2001      v0.21
+
+Addition:
+---------
+
+Change:
+-------
+
+Revision:
+---------
+-Revise a bug of the path acquisition at passes it, and not setting it when 
+ takes a snapshot.
+
+-When video memory can't take main drawing surface, take it as system memory, 
+ and seem to repair it, and revise it.
+
+-The title which revised movement defectiveness and a quiver of a screen with 
+ a version of this time.
+  Title                                 Mapper  Contents
+--------------------------------------------------------------------------------
+  Casthlevania 3 - Dracula's Curse(U)   5       Shake on vertical scroll stage
+
+-Mapper16
+ Variety and adjustment.
+
+================================================================================
+07/13/2001      v0.20
+
+-Rewrote a code about GUI from the beginning.
+-Have decided to turn each language correspondence into plug-in.
+ Please put a "language.vlp" file with a directory the same as VirtuaNES.
+ Can't start by all means if there isn't plug-in more than one.
+
+Addition:
+---------
+
+-Didn't work with screen saver and power supply off of a display during 
+ emulation.
+
+Change:
+-------
+
+-Setting returned to the cause when pushed a button to change back into a 
+ default when canceled it.
+-Changed the indication control of mouse cursor in emulation.
+ Disappeared if didn't move it in an indication area for around 1 second.
+
+Revision:
+---------
+
+-Took you as system memory when didn't get it in video memory, and seemed to 
+ repair it, and changed it when got a TV frame surface.
+-Recovered from what video storage device of notebooks wasn't able to activate 
+ with a few machines.
+-Maximized the next time, and started when finished in maximization indication.
+
+================================================================================
+older versions
+ I'm sorry be Japanese, and write it.
+
